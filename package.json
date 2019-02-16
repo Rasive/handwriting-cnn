@@ -1,0 +1,29 @@
+{
+  "name": "handwriting-cnn",
+  "version": "1.0.0",
+  "description": "A convolutional neural network used for guessing handwritten input",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/light-server/bin/light-server -s . http://localhost:8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasive/handwriting-cnn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasive/handwriting-cnn/issues"
+  },
+  "homepage": "https://github.com/Rasive/handwriting-cnn#readme",
+  "devDependencies": {
+    "@tensorflow-models/mobilenet": "^0.2.2",
+    "@tensorflow/tfjs": "^0.15.2",
+    "fs": "0.0.1-security",
+    "light-server": "^2.6.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {}
+}
